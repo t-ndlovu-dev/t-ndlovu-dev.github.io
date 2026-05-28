@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About – T. Ndlovu</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: center;
+            margin: 2rem 0;
+        }
+        .profile-pic {
+            max-width: 220px;
+            width: 100%;
+            border-radius: 50%;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .bio {
+            flex: 1;
+            min-width: 250px;
+        }
+        .bio p {
+            margin-bottom: 1rem;
+        }
+        .video-container {
+            margin: 2rem 0;
+            text-align: center;
+        }
+        iframe {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>T. Ndlovu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="code-playground/">Code Playground</a></li>
+                <li><a href="team.html">Team Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>About Me</h2>
+
+        <div class="about-container">
+            <img src="images/profile.jpg" alt="Professional photo of T. Ndlovu" class="profile-pic">
+            <div class="bio">
+                <p>I'm a web development student at the Catholic University of Zimbabwe, studying towards a BBMIT degree. I build clean, responsive, and accessible websites using semantic HTML5, modern CSS, and JavaScript.</p>
+                <p>This portfolio was built entirely from scratch — no frameworks, no templates. Every line of code was written and tested offline on an iPhone, version‑controlled with Git, and deployed on GitHub Pages. It demonstrates that I understand not just what to code, but why.</p>
+                <p>When I'm not coding, I'm learning about privacy‑first development, accessibility standards, and how to make the web work for everyone — regardless of device, connection, or ability.</p>
+            </div>
+        </div>
+
+        <h2>Watch My Introduction</h2>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Introduction video" allowfullscreen></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 T. Ndlovu | <a href="mailto:t.ndlovu.dev@proton.me">Email Me</a> | <a href="privacy.html">Privacy</a></p>
+    </footer>
+</body>
+</html>
